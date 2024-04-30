@@ -3,3 +3,4 @@ dotnet pack -c Release -p:Version=1.0.0
 nuget add '.\NiC.Authentication\bin\Release\NiC.Authentication.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
 nuget add '.\NiC.Authentication.Abstractions\bin\Release\NiC.Authentication.Abstractions.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
 nuget add '.\NiC.Authentication.Models\bin\Release\NiC.Authentication.Models.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
+nuget add '.\NiC.Authentication.Models.Db\bin\Release\NiC.Authentication.Models.Db.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
