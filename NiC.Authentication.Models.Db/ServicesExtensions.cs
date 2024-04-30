@@ -1,6 +1,10 @@
-﻿namespace NiC.Authentication.Models.Db;
+﻿[assembly: InternalsVisibleTo("NiC.Authentication.Seeder")]
+[assembly: InternalsVisibleTo("NiC.Authentication.Api")]
+[assembly: InternalsVisibleTo("NiC.Authentication.UnitTests")]
 
-public static class ServicesExtensions
+namespace NiC.Authentication.Models.Db;
+
+internal static class ServicesExtensions
 {
     private const string AuthenticationConnectionSettingsName = "AuthenticationMongoDB";
     private const string AuthenticationDbSettingsName = "DatabaseSettings:DatabaseName";

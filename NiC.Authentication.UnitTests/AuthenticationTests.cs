@@ -10,14 +10,14 @@ public class AuthenticationTests
 
     public AuthenticationTests()
     {
-        HostApplicationBuilder builder = Host.CreateApplicationBuilder([]);
+        var builder = Host.CreateApplicationBuilder([]);
 
         builder.Services
             .InitContext()
             .AddNikCommon()
             .AddNikSecurity()
             .ConfigureAuthenticationMongoDb()
-            .AddAuthenticationAuthentication();
+            .AddNicAuthentication();
         var app = builder.Build();
 
         _authenticater = app.Services.GetService<IAuthenticater>();
