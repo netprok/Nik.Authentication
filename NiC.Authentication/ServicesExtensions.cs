@@ -6,7 +6,7 @@ namespace NiC.Authentication;
 
 internal static class ServicesExtensions
 {
-    public static IServiceCollection AddNicAuthentication(this IServiceCollection services)
+    public static IServiceCollection AddNiCAuthentication(this IServiceCollection services)
     {
         services.AddScoped<IAuthenticater, Authenticater>();
         services.AddScoped<IRegisterer, Registerer>();

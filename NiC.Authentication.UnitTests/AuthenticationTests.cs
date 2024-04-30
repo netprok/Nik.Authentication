@@ -17,7 +17,7 @@ public class AuthenticationTests
             .AddNikCommon()
             .AddNikSecurity()
             .ConfigureAuthenticationMongoDb()
-            .AddNicAuthentication();
+            .AddNiCAuthentication();
         var app = builder.Build();
 
         _authenticater = app.Services.GetService<IAuthenticater>();
