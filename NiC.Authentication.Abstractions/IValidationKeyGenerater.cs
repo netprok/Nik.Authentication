@@ -1,4 +1,4 @@
-﻿namespace NiC.Authentication;
+﻿namespace NiC.Authentication.Abstractions;
 
 public interface IValidationKeyGenerater
 {
