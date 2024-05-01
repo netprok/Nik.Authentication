@@ -1,10 +1,6 @@
-﻿[assembly: InternalsVisibleTo("Nik.Authentication.Seeder")]
-[assembly: InternalsVisibleTo("Nik.Authentication.Api")]
-[assembly: InternalsVisibleTo("Nik.Authentication.UnitTests")]
+﻿namespace Nik.Authentication;
 
-namespace Nik.Authentication;
-
-internal static class ServicesExtensions
+public static class ServicesExtensions
 {
     public static IServiceCollection AddNiCAuthentication(this IServiceCollection services)
     {
