@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nik.Common.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Nik.Extensions.Configurations" Version="1.0.0" />
+    <PackageReference Include="Nik.Security.Abstractions" Version="1.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nik.Authentication.Abstractions\Nik.Authentication.Abstractions.csproj" />
+    <ProjectReference Include="..\Nik.Authentication.Models.Db\Nik.Authentication.Models.Db.csproj" />
+    <ProjectReference Include="..\Nik.Authentication.Models\Nik.Authentication.Models.csproj" />
+  </ItemGroup>
+
+</Project>

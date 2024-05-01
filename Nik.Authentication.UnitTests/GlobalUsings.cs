@@ -1,0 +1,12 @@
+﻿global using System;
+global using System.Threading.Tasks;
+global using FluentAssertions;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using Nik.Authentication.Abstractions;
+global using Nik.Authentication.Models.Db;
+global using Nik.Authentication.Models.Dtos;
+global using Nik.Common;
+global using Nik.Extensions.Configurations;
+global using Nik.Security;
+global using Xunit;
