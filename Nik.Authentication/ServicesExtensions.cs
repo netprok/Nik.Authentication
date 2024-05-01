@@ -2,7 +2,7 @@
 
 public static class ServicesExtensions
 {
-    public static IServiceCollection AddNiCAuthentication(this IServiceCollection services)
+    public static IServiceCollection AddNikAuthentication(this IServiceCollection services)
     {
         services.AddScoped<IAuthenticater, Authenticater>();
         services.AddScoped<IRegisterer, Registerer>();
