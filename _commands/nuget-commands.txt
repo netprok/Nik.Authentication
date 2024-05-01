@@ -1,6 +1,6 @@
 dotnet pack -c Release -p:Version=1.0.0
 
-nuget add '.\Nik.Authentication\bin\Release\Nik.Authentication.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
-nuget add '.\Nik.Authentication.Abstractions\bin\Release\Nik.Authentication.Abstractions.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
-nuget add '.\Nik.Authentication.Models\bin\Release\Nik.Authentication.Models.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
-nuget add '.\Nik.Authentication.Models.Db\bin\Release\Nik.Authentication.Models.Db.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nic-nuget-package-source'
+nuget add '.\Nik.Authentication\bin\Release\Nik.Authentication.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nik-nuget-package-source'
+nuget add '.\Nik.Authentication.Abstractions\bin\Release\Nik.Authentication.Abstractions.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nik-nuget-package-source'
+nuget add '.\Nik.Authentication.Models\bin\Release\Nik.Authentication.Models.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nik-nuget-package-source'
+nuget add '.\Nik.Authentication.Models.Db\bin\Release\Nik.Authentication.Models.Db.1.0.0.nupkg' -source 'D:\OneDrive\Software Development\nik-nuget-package-source'
